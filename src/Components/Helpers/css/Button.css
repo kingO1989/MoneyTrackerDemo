@@ -1,0 +1,22 @@
+.Button {
+  background-color: rgb(61, 99, 167);
+
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  padding: 7px 9px;
+  text-decoration: none;
+  transition-duration: 0.1s;
+  transition-property: transform;
+  text-transform: uppercase;
+  height: 30px;
+  width: auto;
+}
+
+.Button:hover {
+  transform: scale(0.9);
+}

@@ -1,0 +1,8 @@
+ul li {
+  list-style-type: none;
+  border-bottom: 1px solid black;
+}
+
+ul li:hover {
+  background-color: aliceblue;
+}
