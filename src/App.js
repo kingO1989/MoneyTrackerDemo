@@ -1,6 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-
+import { HashRouter as HRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Helpers/Layout";
 import Dashboard from "./Pages/Dashboard";
 import Account from "./Pages/Account";
@@ -188,7 +186,7 @@ function App() {
 
   return (
 
-    <BrowserRouter >
+    <HRouter >
       <AppContext.Provider value={transactionContext}>
         <Routes>
 
@@ -203,7 +201,7 @@ function App() {
 
         </Routes>
       </AppContext.Provider>
-    </BrowserRouter>
+    </HRouter>
 
   );
 }
