@@ -1,0 +1,87 @@
+.account-view-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(220, 220, 220);
+  color: rgb(100, 100, 100);
+}
+
+.left_view {
+  width: 50%;
+
+  padding: 10px;
+}
+.account_holder {
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  border-right: 5px solid rgb(61, 99, 167);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.account_holder:hover {
+  background-color: rgb(220, 220, 220);
+  cursor: pointer;
+}
+
+#content_display .account_holder .name {
+}
+#content_display .account_holder .right_arrow {
+}
+
+.right_view {
+  width: 50%;
+
+  padding: 10px;
+}
+
+.right_view .account_details {
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  padding: 10px;
+}
+.account_details > .total_income,
+.total_expenses,
+.networth {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.account_details > .total_income .title,
+.total_expenses .title,
+.networth .title {
+  background-color: rgb(61, 99, 167);
+  color: antiquewhite;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.account_details .total_income .value {
+}
+.account_details .total_expenses {
+}
+
+.account_details .total_expenses .title {
+}
+.account_details .total_expenses .value {
+}
+
+.account_details .total_income_accordion,
+.total_expense_accordion {
+  justify-content: space-between;
+  display: none;
+}
+
+.account_details .total_income_accordion.display,
+.total_expense_accordion.display {
+  display: block;
+}
+.account_details .total_income_accordion .tti_acc_item {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid silver;
+}

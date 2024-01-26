@@ -1,6 +1,30 @@
+/* eslint-disable n/handle-callback-err */
+/* eslint-disable no-multi-spaces */
+/* eslint-disable no-unneeded-ternary */
+/* eslint-disable react/display-name */
+/* eslint-disable multiline-ternary */
+/* eslint-disable comma-dangle */
+/* eslint-disable react/prop-types */
+/* eslint-disable operator-linebreak */
+/* eslint-disable react/jsx-key */
+/* eslint-disable indent */
+/* eslint-disable prefer-const */
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable no-undef */
+/* eslint-disable spaced-comment */
+/* eslint-disable semi */
+/* eslint-disable curly */
+/* eslint-disable array-callback-return */
+/* eslint-disable padded-blocks */
+/* eslint-disable space-before-function-paren */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable no-unused-vars */
+/* eslint-disable quotes */
+
 import { Outlet, Link } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
-import "./css/Layout.css"
+import "./Layout.css"
 
 
 const LayoutNew = () => {
@@ -51,20 +75,26 @@ const LayoutNew = () => {
                 <section className="nav">
                     <div className="side_bar">
                         <div className="side_bar_header">
-                            <div className="header_logo"><h4>Money App</h4></div>
+                            <div className="header_logo"><h4>Money Affpp</h4></div>
                         </div>
                         <div className="side_bar_menu">
-                            <div className="menu_item">
-                                <span className="icon"><i className="fa-solid fa-sack-dollar"></i></span><Link to="/Account">Account </Link>
-                            </div>
-                            <div className="menu_item">
-                                <span className="icon"><i className="fa-solid fa-gauge"></i></span>
-                                <Link to="/">Dashboard </Link>
-                            </div>
-                            <div className="menu_item">
-                                <span className="icon"><i className="fa-solid fa-tent-arrow-left-right"></i></span>
-                                <Link to="/Transaction">Transaction </Link>
-                            </div>
+                            <Link to="/Account">
+                                <div className="menu_item">
+                                    <span className="icon"><i className="fa-solid fa-sack-dollar"></i></span>Account
+                                </div>
+                            </Link>
+                            <Link to="/">
+                                <div className="menu_item">
+                                    <span className="icon"><i className="fa-solid fa-gauge"></i></span>
+                                    Dashboard
+                                </div>
+                            </Link>
+                            <Link to="/Transaction">
+                                <div className="menu_item">
+                                    <span className="icon"><i className="fa-solid fa-tent-arrow-left-right"></i></span>
+                                    Transaction
+                                </div>
+                            </Link>
                             <div className="menu_item">
                                 <span className="icon"><i className="fa-solid fa-chart-pie"></i></span>
                                 Analysis
@@ -85,37 +115,13 @@ const LayoutNew = () => {
                                 Log out
                             </div>
 
-                            {
-
-
-                                loginDisplay ?
-                                    <>
-                                        <button onClick={""}>Google Signin</button>
-
-                                    </> : <>
-                                        <button onClick={""}>Google Sign out </button>
-                                    </>
-
-                            }
-
-                            {
-
-
-                                usernameDisplay ?
-                                    <>
-                                        {username}
-
-                                    </> : <>
-
-                                    </>
-
-                            }
                         </div>
                     </div>
                 </section>
 
                 <section className="body">
                     <div className="header">
+                        <span>Money App</span>
                         <span className="notification"><i className="fa-solid fa-bell fa-2xl"></i></span>
                         <span className="profile"></span>
                         <span className="arrow_down"><i className="fa-solid fa-angle-down fa-2xl"></i></span>
@@ -185,4 +191,4 @@ const LayoutNew = () => {
     )
 };
 
-export default LayoutNew;
+export default LayoutNew

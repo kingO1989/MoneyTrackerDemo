@@ -1,3 +1,24 @@
+/* eslint-disable react/display-name */
+/* eslint-disable multiline-ternary */
+/* eslint-disable comma-dangle */
+/* eslint-disable react/prop-types */
+/* eslint-disable operator-linebreak */
+/* eslint-disable react/jsx-key */
+/* eslint-disable indent */
+/* eslint-disable prefer-const */
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable no-undef */
+/* eslint-disable spaced-comment */
+/* eslint-disable semi */
+/* eslint-disable curly */
+/* eslint-disable array-callback-return */
+/* eslint-disable padded-blocks */
+/* eslint-disable space-before-function-paren */
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable no-multiple-empty-lines */
+/* eslint-disable no-unused-vars */
+/* eslint-disable quotes */
+
 import { forwardRef } from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,7 +30,7 @@ const Form = forwardRef(({ fields, initialData = {}, readonly = false }, ref) =>
     <form className="Form" ref={ref}>
       {Object.keys(fields).map((id) => {
         const prefilled = initialData[id];
-        const { label, type, accounts, onAccountsChange, onAction, onTransactionChange, defaultValue } = fields[id];
+        const { label, type, accounts, onAccountsChange, onAction, onTransactionChange, defaultValue, onCategoryChange } = fields[id];
         if (readonly) {
 
           return (
@@ -24,6 +45,7 @@ const Form = forwardRef(({ fields, initialData = {}, readonly = false }, ref) =>
                 onAccountsChange={onAccountsChange}
                 onAction={onAction}
                 onTransactionChange={onTransactionChange}
+                onCategoryChange={onCategoryChange}
                 defaultValue={defaultValue}
                 readOnly={true}
 
@@ -44,6 +66,7 @@ const Form = forwardRef(({ fields, initialData = {}, readonly = false }, ref) =>
               onAction={onAction}
               onTransactionChange={onTransactionChange}
               defaultValue={defaultValue}
+              onCategoryChange={onCategoryChange}
 
             />
           </div>
@@ -57,7 +80,7 @@ Form.propTypes = {
   fields: PropTypes.objectOf(
     PropTypes.shape({
       label: PropTypes.string.isRequired,
-      type: PropTypes.oneOf(['textarea', 'input', 'year', 'AccountHolders']),
+      type: PropTypes.oneOf(['textarea', 'input', 'year', 'AccountHolders', 'TransactionCategory']),
       options: PropTypes.arrayOf(PropTypes.object),
     }),
   ).isRequired,

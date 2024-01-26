@@ -1,8 +1,11 @@
-.acct-btn {
+.trans-btn {
   margin-top: 10px;
   margin-left: 5px;
   margin-bottom: 5px;
   border: 0px;
   border-radius: 5px;
   background-color: rgb(61, 99, 167);
+}
+.recent-trans-btn {
+  border: none;
 }

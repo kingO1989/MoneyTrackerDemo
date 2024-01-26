@@ -1,3 +1,4 @@
+/* eslint-disable n/handle-callback-err */
 /* eslint-disable no-multi-spaces */
 /* eslint-disable no-unneeded-ternary */
 /* eslint-disable react/display-name */
@@ -20,9 +21,14 @@
 /* eslint-disable no-multiple-empty-lines */
 /* eslint-disable no-unused-vars */
 /* eslint-disable quotes */
-const Reports = () => {
+const ErrorFallback = ({ error, resetErrorBoundary }) => {
+    //  <pre>{error.message}</pre>
+    return (
+        <div className="error">
+            <p>Something went wrong:</p>
 
-
+            <button onClick={resetErrorBoundary}>Try again</button>
+        </div>
+    )
 }
-
-export default Reports
+export default ErrorFallback

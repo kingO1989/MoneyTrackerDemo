@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kingo1989.github.io/",
+  "homepage": "https://kingo1989.github.io/MoneyTrackerDemo",
   "name": "moneytracker",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +14,15 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "classnames": "^2.3.2",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-react": "^7.33.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

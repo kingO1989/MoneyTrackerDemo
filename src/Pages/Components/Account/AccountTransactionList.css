@@ -1,0 +1,30 @@
+.container-account-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.account-list {
+  border-spacing: 0px;
+}
+.account-list thead {
+  background-color: rgba(61, 99, 167, 0.5);
+}
+
+.account-list thead tr {
+  color: #000;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.account-list thead tr td {
+  padding: 5px;
+  margin: 4px;
+  color: rgb(61, 99, 167);
+  font-weight: bold;
+}
+
+.account-list tbody > tr,
+td {
+  border-bottom: 1px solid rgb(220, 220, 220);
+  text-align: right;
+}

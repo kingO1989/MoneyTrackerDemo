@@ -27,8 +27,14 @@ hr {
   flex-direction: column;
 }
 
+.main_body > .nav a {
+  text-decoration: none;
+  color: black;
+}
+
 .side_bar {
   background-color: #fff;
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.4);
   height: 85%;
 }
 .side_bar .side_bar_menu {
@@ -138,6 +144,26 @@ hr {
   position: fixed;
   z-index: 1;
   display: none;
+}
+
+.transaction .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.transaction .flex-container .flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 100%;
+}
+
+.transaction .flex-container .flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 100%;
 }
 
 @media only screen and (max-width: 600px) {
