@@ -1,17 +1,37 @@
 {
   "files": {
-    "main.css": "/MoneyTrackerDemo/static/css/main.24b03ae5.css",
-    "main.js": "/MoneyTrackerDemo/static/js/main.e534935a.js",
+    "main.css": "/MoneyTrackerDemo/static/css/main.7e67568e.css",
+    "main.js": "/MoneyTrackerDemo/static/js/main.69d547ff.js",
+    "static/css/222.c70b04d4.chunk.css": "/MoneyTrackerDemo/static/css/222.c70b04d4.chunk.css",
+    "static/js/222.816a7874.chunk.js": "/MoneyTrackerDemo/static/js/222.816a7874.chunk.js",
+    "static/css/402.53bc32d9.chunk.css": "/MoneyTrackerDemo/static/css/402.53bc32d9.chunk.css",
+    "static/js/402.e8ddf871.chunk.js": "/MoneyTrackerDemo/static/js/402.e8ddf871.chunk.js",
+    "static/css/243.e0bb1338.chunk.css": "/MoneyTrackerDemo/static/css/243.e0bb1338.chunk.css",
+    "static/js/243.8a2fc153.chunk.js": "/MoneyTrackerDemo/static/js/243.8a2fc153.chunk.js",
+    "static/js/72.f81c69ec.chunk.js": "/MoneyTrackerDemo/static/js/72.f81c69ec.chunk.js",
+    "static/js/663.f9fb40bf.chunk.js": "/MoneyTrackerDemo/static/js/663.f9fb40bf.chunk.js",
+    "static/js/881.49c421f1.chunk.js": "/MoneyTrackerDemo/static/js/881.49c421f1.chunk.js",
     "static/js/787.bd0e6fc4.chunk.js": "/MoneyTrackerDemo/static/js/787.bd0e6fc4.chunk.js",
+    "static/js/356.50701b33.chunk.js": "/MoneyTrackerDemo/static/js/356.50701b33.chunk.js",
     "index.html": "/MoneyTrackerDemo/index.html",
     "static/media/edit.svg": "/MoneyTrackerDemo/static/media/edit.82c2f9d179d6f217b2f91172303f8caa.svg",
     "static/media/close.svg": "/MoneyTrackerDemo/static/media/close.d9716d4875823c69f1173772abb7c39f.svg",
-    "main.24b03ae5.css.map": "/MoneyTrackerDemo/static/css/main.24b03ae5.css.map",
-    "main.e534935a.js.map": "/MoneyTrackerDemo/static/js/main.e534935a.js.map",
-    "787.bd0e6fc4.chunk.js.map": "/MoneyTrackerDemo/static/js/787.bd0e6fc4.chunk.js.map"
+    "main.7e67568e.css.map": "/MoneyTrackerDemo/static/css/main.7e67568e.css.map",
+    "main.69d547ff.js.map": "/MoneyTrackerDemo/static/js/main.69d547ff.js.map",
+    "222.c70b04d4.chunk.css.map": "/MoneyTrackerDemo/static/css/222.c70b04d4.chunk.css.map",
+    "222.816a7874.chunk.js.map": "/MoneyTrackerDemo/static/js/222.816a7874.chunk.js.map",
+    "402.53bc32d9.chunk.css.map": "/MoneyTrackerDemo/static/css/402.53bc32d9.chunk.css.map",
+    "402.e8ddf871.chunk.js.map": "/MoneyTrackerDemo/static/js/402.e8ddf871.chunk.js.map",
+    "243.e0bb1338.chunk.css.map": "/MoneyTrackerDemo/static/css/243.e0bb1338.chunk.css.map",
+    "243.8a2fc153.chunk.js.map": "/MoneyTrackerDemo/static/js/243.8a2fc153.chunk.js.map",
+    "72.f81c69ec.chunk.js.map": "/MoneyTrackerDemo/static/js/72.f81c69ec.chunk.js.map",
+    "663.f9fb40bf.chunk.js.map": "/MoneyTrackerDemo/static/js/663.f9fb40bf.chunk.js.map",
+    "881.49c421f1.chunk.js.map": "/MoneyTrackerDemo/static/js/881.49c421f1.chunk.js.map",
+    "787.bd0e6fc4.chunk.js.map": "/MoneyTrackerDemo/static/js/787.bd0e6fc4.chunk.js.map",
+    "356.50701b33.chunk.js.map": "/MoneyTrackerDemo/static/js/356.50701b33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24b03ae5.css",
-    "static/js/main.e534935a.js"
+    "static/css/main.7e67568e.css",
+    "static/js/main.69d547ff.js"
   ]
 }
